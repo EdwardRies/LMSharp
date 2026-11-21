@@ -1,0 +1,40 @@
+# .gitignore for .NET
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.cache
+
+# Build outputs
+bin/
+obj/
+TestResults/
+*.trx
+
+# Resharper
+*.resharper
+*.resharper.cs
+*.DotSettings.user
+
+# VisualStudio temporary files
+*.tmp
+*.vspscc
+*.vssscc
+.vs/
+.vscode/
+/src/LMSharp.Console/Properties/launchSettings.json
+
+# Local logs and secrets
+*.log
+.env
+.env.*
+!.env.example
+
+# Local model and tokenizer downloads
+*.gguf
+[Rr]esources/Vocab/
+
+# OS generated files
+.DS_Store
+Thumbs.db

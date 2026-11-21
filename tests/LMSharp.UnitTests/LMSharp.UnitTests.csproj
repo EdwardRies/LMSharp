@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <IsPackable>false</IsPackable>
+    <RootNamespace>LMSharp.UnitTests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <ProjectReference Include="../../src/LMSharp.Console/LMSharp.Console.csproj" />
+    <ProjectReference Include="../../src/LMSharp.Gguf/LMSharp.Gguf.csproj" />
+    <ProjectReference Include="../../src/LMSharp.Tokenization/LMSharp.Tokenization.csproj" />
+    <ProjectReference Include="../../src/LMSharp.Tensors/LMSharp.Tensors.csproj" />
+    <ProjectReference Include="../../src/LMSharp.Inference/LMSharp.Inference.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="System" />
+    <Using Include="LMSharp.Console" />
+  </ItemGroup>
+</Project>

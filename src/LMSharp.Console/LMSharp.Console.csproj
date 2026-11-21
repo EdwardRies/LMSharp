@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LMSharp.Console</RootNamespace>
+    <AssemblyName>LMSharp.Console</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../LMSharp.Gguf/LMSharp.Gguf.csproj" />
+    <ProjectReference Include="../LMSharp.Tokenization/LMSharp.Tokenization.csproj" />
+    <ProjectReference Include="../LMSharp.Inference/LMSharp.Inference.csproj" />
+    <InternalsVisibleTo Include="LMSharp.UnitTests" />
+  </ItemGroup>
+</Project>

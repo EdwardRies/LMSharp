@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../LMSharp.Gguf/LMSharp.Gguf.csproj" />
+    <ProjectReference Include="../LMSharp.Tokenization/LMSharp.Tokenization.csproj" />
+    <ProjectReference Include="../LMSharp.Tensors/LMSharp.Tensors.csproj" />
+    <InternalsVisibleTo Include="LMSharp.UnitTests" />
+    <EmbeddedResource Include="Cuda/Phi4.cu" LogicalName="LMSharp.Inference.Cuda.Phi4.cu" />
+  </ItemGroup>
+
+</Project>

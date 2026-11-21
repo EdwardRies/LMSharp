@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/docs/">
+    <File Path="docs/Architecture.md" />
+    <File Path="docs/Model-Compatibility.md" />
+    <File Path="docs/Usage.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/LMSharp.Console/LMSharp.Console.csproj" />
+    <Project Path="src/LMSharp.Gguf/LMSharp.Gguf.csproj" />
+    <Project Path="src/LMSharp.Inference/LMSharp.Inference.csproj" />
+    <Project Path="src/LMSharp.Tensors/LMSharp.Tensors.csproj" />
+    <Project Path="src/LMSharp.Tokenization/LMSharp.Tokenization.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LMSharp.UnitTests/LMSharp.UnitTests.csproj" />
+  </Folder>
+</Solution>
