@@ -43,4 +43,4 @@ The default suite runs without the model or a GPU. The [verification guide](docs
 
 ## License
 
-A license for the LMSharp source has not been specified. The model and other upstream materials have separate terms. See the [third-party notices](THIRD-PARTY-NOTICES.md).
+The LMSharp source is licensed under the [MIT License](LICENSE). The model and other upstream materials have separate terms described in the [third-party notices](THIRD-PARTY-NOTICES.md).
